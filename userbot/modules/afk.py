@@ -23,8 +23,8 @@ async def mention_afk(mention):
         if ISAFK:
             if mention.sender_id not in USERS:
                 await mention.reply(
-                    f"Sorry! My boss is AFK due to `{AFKREASON}`."
-                    "\nWould ping him to look into the message soon 😉."
+                    f"Sorry! Mere boss `{gaye hai chodne}`."
+                    "\nto unhe santi se chodne de warna wo aapko chod denge! 😉."
                 )
                 USERS.update({mention.sender_id: 1})
                 COUNT_MSG = COUNT_MSG + 1
